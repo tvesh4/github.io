@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tvesha S Kumar | Blog</title>
+    <meta
+      name="description"
+      content="Blog by Tvesha S Kumar: notes on internships, innovation, and leadership."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <header class="site-header">
+      <a class="name-lockup" href="./index.html" aria-label="Go to home">
+        <span class="name-main">Tvesha</span>
+        <span class="name-sub">S Kumar</span>
+      </a>
+      <nav class="nav-links">
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#experience">Experience</a>
+        <a href="./index.html#leadership">Leadership</a>
+        <a href="./index.html#skills">Skills</a>
+        <a href="./index.html#awards">Awards</a>
+        <a href="./index.html#education">Education</a>
+        <a href="./index.html#contact">Contact</a>
+        <a class="blog-link active" href="./blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero blog-hero section panel" data-parallax="0.1">
+        <div class="hero-content reveal">
+          <p class="tag">Writing</p>
+          <h1><span class="gradient-text">Blog</span> & reflections</h1>
+          <p class="hero-subtitle">
+            Notes from internships, student leadership, innovation, and learning by doing.
+          </p>
+        </div>
+      </section>
+
+      <section class="section panel">
+        <div class="section-head reveal">
+          <h2>Latest Posts</h2>
+        </div>
+        <div class="blog-layout">
+          <aside class="blog-sidebar reveal">
+            <h3>Categories</h3>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="internship">Internship</button>
+            <button class="filter-btn" data-filter="leadership">Leadership</button>
+            <button class="filter-btn" data-filter="innovation">Innovation</button>
+          </aside>
+          <div class="blog-posts" id="blogPosts">
+            <article class="card blog-card reveal" data-category="internship">
+              <p class="post-meta">Dec 2025 • 6 min read</p>
+              <h3><a class="post-link" href="./blog-hsbc-wholesale-automation.html">What Wholesale Automation Taught Me at HSBC</a></h3>
+              <p>Reflections on operating in a large bank while supporting automation initiatives.</p>
+            </article>
+            <article class="card blog-card reveal" data-category="internship">
+              <p class="post-meta">May 2025 • 5 min read</p>
+              <h3><a class="post-link" href="./blog-kpmg-technology-enablement.html">Inside Technology Enablement at KPMG China</a></h3>
+              <p>How advisory projects sharpened my approach to process and delivery.</p>
+            </article>
+            <article class="card blog-card reveal" data-category="innovation">
+              <p class="post-meta">Jun 2024 • 7 min read</p>
+              <h3><a class="post-link" href="./blog-nestspace-community-purpose.html">NestSpace HKU: Building with Community and Purpose</a></h3>
+              <p>A look at exchanges, showcases, and innovation momentum from student-led projects.</p>
+            </article>
+            <article class="card blog-card reveal" data-category="leadership">
+              <p class="post-meta">Feb 2025 • 4 min read</p>
+              <h3><a class="post-link" href="./blog-leading-student-tech-communities.html">Leading Student Tech Communities at HKU</a></h3>
+              <p>Lessons from chairing student initiatives, communication, and collaboration at scale.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Tvesha S Kumar.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
