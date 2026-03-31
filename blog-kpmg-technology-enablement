@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inside Technology Enablement at KPMG China | Tvesha S Kumar</title>
+    <meta
+      name="description"
+      content="Blank draft page for blog post: Inside Technology Enablement at KPMG China."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <header class="site-header">
+      <a class="name-lockup" href="./index.html" aria-label="Go to home">
+        <span class="name-main">Tvesha</span>
+        <span class="name-sub">S Kumar</span>
+      </a>
+      <nav class="nav-links">
+        <a href="./index.html#about">About</a>
+        <a href="./index.html#experience">Experience</a>
+        <a href="./index.html#leadership">Leadership</a>
+        <a href="./index.html#skills">Skills</a>
+        <a href="./index.html#awards">Awards</a>
+        <a href="./index.html#education">Education</a>
+        <a href="./index.html#contact">Contact</a>
+        <a class="blog-link active" href="./blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="section-head reveal is-visible">
+          <p class="tag">May 2025</p>
+          <h2>Inside Technology Enablement at KPMG China</h2>
+        </div>
+        <article class="contact-card reveal is-visible">
+          <p>im lowkey busy i'll add this later lol</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Tvesha S Kumar.</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
